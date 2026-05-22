@@ -4,7 +4,7 @@ public class AccountHandler {
         try{
          //   insert AcctToBeInserted;
           // We add somting
-          // we not resolving that changes
+          // we are not resolving
         }catch(DMLException e){
             system.debug('inside DMLEception catch, error is' + e.getMessage());
             AcctToBeInserted= null;
